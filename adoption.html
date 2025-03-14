@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adoption | The Social Bark</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="sticky-header">
+        <div class="container">
+            <div class="logo">
+                <h1>The Social Bark</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="available-dogs.html">Available Dogs</a></li>
+                    <li><a href="adoption.html" class="active">Adoption</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h2>Adoption Application</h2>
+            <p>Take the first step toward bringing home your new best friend</p>
+        </div>
+    </section>
+
+    <section class="adoption-form">
+        <div class="container">
+            <form id="adoption-form">
+                <div class="form-group">
+                    <label for="dog-select">Dog You're Interested In:</label>
+                    <select id="dog-select" required>
+                        <option value="">Select a Dog...</option>
+                        <option value="buddy">Buddy</option>
+                        <option value="luna">Luna</option>
+                        <option value="max">Max</option>
+                        <option value="daisy">Daisy</option>
+                        <option value="charlie">Charlie</option>
+                        <option value="bella">Bella</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="name">Your Full Name:</label>
+                    <input type="text" id="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" required>
+                </div>
+
+                <button type="submit" class="btn">Submit Application</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="contact-info">
+                    <h3>Contact Us</h3>
+                    <p>Email: thesocialbark1@gmail.com</p>
+                    <p>Phone: 073056195256</p>
+                </div>
+                <div class="social-links">
+                    <h3>Follow Us</h3>
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Twitter</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 The Social Bark. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
